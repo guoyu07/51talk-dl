@@ -379,7 +379,7 @@ class NativeDownloader(Downloader):
             return False
 
 
-def get_downloader(session, class_name, args):
+def get_downloader(session, args):
     """
     Decides which downloader to use.
     """
